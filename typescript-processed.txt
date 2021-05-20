@@ -1,0 +1,633 @@
+Script started on 2021-03-10 13:43:39-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="103" LINES="24"]
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab06/cpuScheduler/cmake-build-debug/bin$ ls
+cpuScheduler  typescript.txt
+/../input/in-FCFS.txtalBox:~/Desktop/AlexLuxLab06/cpuScheduler/cmake-build-debug/bin$ ./cpuScheduler ..
+Reading input from file ../../input/in-FCFS.txts.
+
+
+ALGORITHM: FCFS
+
+PROCESSES:
+
+Name		Entry	Burst
+P1		  0	 15
+P2		  2	  6
+P3		  5	  2
+P4		  6	  3
+P5		  7	  7
+
+SIMULATION:
+
+T0:
+CPU: P1(15)
+QUEUE: <empty>
+
+T1:
+CPU: P1(14)
+QUEUE: <empty>
+
+T2:
+CPU: P1(13)
+QUEUE: P2(6)
+
+T3:
+CPU: P1(12)
+QUEUE: P2(6)
+
+T4:
+CPU: P1(11)
+QUEUE: P2(6)
+
+T5:
+CPU: P1(10)
+QUEUE: P2(6) P3(2)
+
+T6:
+CPU: P1(9)
+QUEUE: P2(6) P3(2) P4(3)
+
+T7:
+CPU: P1(8)
+QUEUE: P2(6) P3(2) P4(3) P5(7)
+
+T8:
+CPU: P1(7)
+QUEUE: P2(6) P3(2) P4(3) P5(7)
+
+T9:
+CPU: P1(6)
+QUEUE: P2(6) P3(2) P4(3) P5(7)
+
+T10:
+CPU: P1(5)
+QUEUE: P2(6) P3(2) P4(3) P5(7)
+
+T11:
+CPU: P1(4)
+QUEUE: P2(6) P3(2) P4(3) P5(7)
+
+T12:
+CPU: P1(3)
+QUEUE: P2(6) P3(2) P4(3) P5(7)
+
+T13:
+CPU: P1(2)
+QUEUE: P2(6) P3(2) P4(3) P5(7)
+
+T14:
+CPU: P1(1)
+QUEUE: P2(6) P3(2) P4(3) P5(7)
+
+T15:
+CPU: P2(6)
+QUEUE: P3(2) P4(3) P5(7)
+
+T16:
+CPU: P2(5)
+QUEUE: P3(2) P4(3) P5(7)
+
+T17:
+CPU: P2(4)
+QUEUE: P3(2) P4(3) P5(7)
+
+T18:
+CPU: P2(3)
+QUEUE: P3(2) P4(3) P5(7)
+
+T19:
+CPU: P2(2)
+QUEUE: P3(2) P4(3) P5(7)
+
+T20:
+CPU: P2(1)
+QUEUE: P3(2) P4(3) P5(7)
+
+T21:
+CPU: P3(2)
+QUEUE: P4(3) P5(7)
+
+T22:
+CPU: P3(1)
+QUEUE: P4(3) P5(7)
+
+T23:
+CPU: P4(3)
+QUEUE: P5(7)
+
+T24:
+CPU: P4(2)
+QUEUE: P5(7)
+
+T25:
+CPU: P4(1)
+QUEUE: P5(7)
+
+T26:
+CPU: P5(7)
+QUEUE: <empty>
+
+T27:
+CPU: P5(6)
+QUEUE: <empty>
+
+T28:
+CPU: P5(5)
+QUEUE: <empty>
+
+T29:
+CPU: P5(4)
+QUEUE: <empty>
+
+T30:
+CPU: P5(3)
+QUEUE: <empty>
+
+T31:
+CPU: P5(2)
+QUEUE: <empty>
+
+T32:
+CPU: P5(1)
+QUEUE: <empty>
+
+Process P1 Wait Time: 0.00
+Process P2 Wait Time: 13.00
+Process P3 Wait Time: 16.00
+Process P4 Wait Time: 17.00
+Process P5 Wait Time: 19.00
+Average Wait Time: 13.00
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab06/cpuScheduler/cmake-build-debug/bin$ ./cpuScheduler ../../input/in-FCFS.txt>> out-FCFS.txt
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab06/cpuScheduler/cmake-build-debug/bin$ ./cpuScheduler ../../input/inSJF.txtxt > out-FCFS.txt
+Reading input from file ../../input/in-SJF.txts.
+
+
+ALGORITHM: SJF
+
+PROCESSES:
+
+Name		Entry	Burst
+P1		  0	 15
+P2		  2	  6
+P3		  5	  2
+P4		  6	  3
+P5		  7	  7
+
+SIMULATION:
+
+T0:
+CPU: P1(15)
+QUEUE: <empty>
+
+T1:
+CPU: P1(14)
+QUEUE: <empty>
+
+T2:
+CPU: P1(13)
+QUEUE: P2(6)
+
+T3:
+CPU: P1(12)
+QUEUE: P2(6)
+
+T4:
+CPU: P1(11)
+QUEUE: P2(6)
+
+T5:
+CPU: P1(10)
+QUEUE: P2(6) P3(2)
+
+T6:
+CPU: P1(9)
+QUEUE: P2(6) P3(2) P4(3)
+
+T7:
+CPU: P1(8)
+QUEUE: P2(6) P3(2) P4(3) P5(7)
+
+T8:
+CPU: P1(7)
+QUEUE: P2(6) P3(2) P4(3) P5(7)
+
+T9:
+CPU: P1(6)
+QUEUE: P2(6) P3(2) P4(3) P5(7)
+
+T10:
+CPU: P1(5)
+QUEUE: P2(6) P3(2) P4(3) P5(7)
+
+T11:
+CPU: P1(4)
+QUEUE: P2(6) P3(2) P4(3) P5(7)
+
+T12:
+CPU: P1(3)
+QUEUE: P2(6) P3(2) P4(3) P5(7)
+
+T13:
+CPU: P1(2)
+QUEUE: P2(6) P3(2) P4(3) P5(7)
+
+T14:
+CPU: P1(1)
+QUEUE: P2(6) P3(2) P4(3) P5(7)
+
+T15:
+CPU: P3(2)
+QUEUE: P2(6) P4(3) P5(7)
+
+T16:
+CPU: P3(1)
+QUEUE: P2(6) P4(3) P5(7)
+
+T17:
+CPU: P4(3)
+QUEUE: P2(6) P5(7)
+
+T18:
+CPU: P4(2)
+QUEUE: P2(6) P5(7)
+
+T19:
+CPU: P4(1)
+QUEUE: P2(6) P5(7)
+
+T20:
+CPU: P2(6)
+QUEUE: P5(7)
+
+T21:
+CPU: P2(5)
+QUEUE: P5(7)
+
+T22:
+CPU: P2(4)
+QUEUE: P5(7)
+
+T23:
+CPU: P2(3)
+QUEUE: P5(7)
+
+T24:
+CPU: P2(2)
+QUEUE: P5(7)
+
+T25:
+CPU: P2(1)
+QUEUE: P5(7)
+
+T26:
+CPU: P5(7)
+QUEUE: <empty>
+
+T27:
+CPU: P5(6)
+QUEUE: <empty>
+
+T28:
+CPU: P5(5)
+QUEUE: <empty>
+
+T29:
+CPU: P5(4)
+QUEUE: <empty>
+
+T30:
+CPU: P5(3)
+QUEUE: <empty>
+
+T31:
+CPU: P5(2)
+QUEUE: <empty>
+
+T32:
+CPU: P5(1)
+QUEUE: <empty>
+
+Process P1 Wait Time: 0.00
+Process P2 Wait Time: 18.00
+Process P3 Wait Time: 10.00
+Process P4 Wait Time: 11.00
+Process P5 Wait Time: 19.00
+Average Wait Time: 11.60
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab06/cpuScheduler/cmake-build-debug/bin$ ./cpuScheduler ../../input/in-SJF.txt > out-SJF.txt
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab06/cpuScheduler/cmake-build-debug/bin$ ./cpuScheduler ../../input/in-SRTF.txt> out-SJF.txt
+Reading input from file ../../input/in-SRTF.txts.
+
+
+ALGORITHM: SRTF
+
+PROCESSES:
+
+Name		Entry	Burst
+P1		  0	 15
+P2		  2	  6
+P3		  5	  2
+P4		  6	  3
+P5		  7	  7
+
+SIMULATION:
+
+T0:
+CPU: P1(15)
+QUEUE: <empty>
+
+T1:
+CPU: P1(14)
+QUEUE: <empty>
+
+T2:
+CPU: P2(6)
+QUEUE: P1(13)
+
+T3:
+CPU: P2(5)
+QUEUE: P1(13)
+
+T4:
+CPU: P2(4)
+QUEUE: P1(13)
+
+T5:
+CPU: P3(2)
+QUEUE: P1(13) P2(3)
+
+T6:
+CPU: P3(1)
+QUEUE: P1(13) P4(3) P2(3)
+
+T7:
+CPU: P4(3)
+QUEUE: P2(3) P5(7) P1(13)
+
+T8:
+CPU: P4(2)
+QUEUE: P5(7) P1(13) P2(3)
+
+T9:
+CPU: P4(1)
+QUEUE: P5(7) P1(13) P2(3)
+
+T10:
+CPU: P2(3)
+QUEUE: P1(13) P5(7)
+
+T11:
+CPU: P2(2)
+QUEUE: P1(13) P5(7)
+
+T12:
+CPU: P2(1)
+QUEUE: P1(13) P5(7)
+
+T13:
+CPU: P5(7)
+QUEUE: P1(13)
+
+T14:
+CPU: P5(6)
+QUEUE: P1(13)
+
+T15:
+CPU: P5(5)
+QUEUE: P1(13)
+
+T16:
+CPU: P5(4)
+QUEUE: P1(13)
+
+T17:
+CPU: P5(3)
+QUEUE: P1(13)
+
+T18:
+CPU: P5(2)
+QUEUE: P1(13)
+
+T19:
+CPU: P5(1)
+QUEUE: P1(13)
+
+T20:
+CPU: P1(13)
+QUEUE: <empty>
+
+T21:
+CPU: P1(12)
+QUEUE: <empty>
+
+T22:
+CPU: P1(11)
+QUEUE: <empty>
+
+T23:
+CPU: P1(10)
+QUEUE: <empty>
+
+T24:
+CPU: P1(9)
+QUEUE: <empty>
+
+T25:
+CPU: P1(8)
+QUEUE: <empty>
+
+T26:
+CPU: P1(7)
+QUEUE: <empty>
+
+T27:
+CPU: P1(6)
+QUEUE: <empty>
+
+T28:
+CPU: P1(5)
+QUEUE: <empty>
+
+T29:
+CPU: P1(4)
+QUEUE: <empty>
+
+T30:
+CPU: P1(3)
+QUEUE: <empty>
+
+T31:
+CPU: P1(2)
+QUEUE: <empty>
+
+T32:
+CPU: P1(1)
+QUEUE: <empty>
+
+Process P1 Wait Time: 32.00
+Process P2 Wait Time: 10.00
+Process P3 Wait Time: 1.00
+Process P4 Wait Time: 3.00
+Process P5 Wait Time: 12.00
+Average Wait Time: 11.60
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab06/cpuScheduler/cmake-build-debug/bin$ ./cpuScheduler ../../input/in-SRTF.txt > out-SRTF.txt
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab06/cpuScheduler/cmake-build-debug/bin$ ./cpuScheduler ../../input/in-RR.3xttt > out-SRTF.txt
+Reading input from file ../../input/in-RR.txts.
+
+
+ALGORITHM: RR  3
+
+PROCESSES:
+
+Name		Entry	Burst
+P1		  0	 15
+P2		  2	  6
+P3		  5	  2
+P4		  6	  3
+P5		  7	  7
+
+SIMULATION:
+
+T0:
+CPU: P1(15)
+QUEUE: <empty>
+
+T1:
+CPU: P1(14)
+QUEUE: <empty>
+
+T2:
+CPU: P1(13)
+QUEUE: P2(6)
+
+T3:
+CPU: P2(6)
+QUEUE: P1(12)
+
+T4:
+CPU: P2(5)
+QUEUE: P1(12)
+
+T5:
+CPU: P2(4)
+QUEUE: P1(12) P3(2)
+
+T6:
+CPU: P1(12)
+QUEUE: P3(2) P4(3) P2(3)
+
+T7:
+CPU: P1(11)
+QUEUE: P3(2) P4(3) P2(3) P5(7)
+
+T8:
+CPU: P1(10)
+QUEUE: P3(2) P4(3) P2(3) P5(7)
+
+T9:
+CPU: P3(2)
+QUEUE: P4(3) P2(3) P5(7) P1(9)
+
+T10:
+CPU: P3(1)
+QUEUE: P4(3) P2(3) P5(7) P1(9)
+
+T11:
+CPU: P4(3)
+QUEUE: P2(3) P5(7) P1(9)
+
+T12:
+CPU: P4(2)
+QUEUE: P2(3) P5(7) P1(9)
+
+T13:
+CPU: P2(3)
+QUEUE: P5(7) P1(9) P4(1)
+
+T14:
+CPU: P2(2)
+QUEUE: P5(7) P1(9) P4(1)
+
+T15:
+CPU: P2(1)
+QUEUE: P5(7) P1(9) P4(1)
+
+T16:
+CPU: P5(7)
+QUEUE: P1(9) P4(1)
+
+T17:
+CPU: P5(6)
+QUEUE: P1(9) P4(1)
+
+T18:
+CPU: P1(9)
+QUEUE: P4(1) P5(5)
+
+T19:
+CPU: P1(8)
+QUEUE: P4(1) P5(5)
+
+T20:
+CPU: P1(7)
+QUEUE: P4(1) P5(5)
+
+T21:
+CPU: P4(1)
+QUEUE: P5(5) P1(6)
+
+T22:
+CPU: P5(5)
+QUEUE: P1(6)
+
+T23:
+CPU: P5(4)
+QUEUE: P1(6)
+
+T24:
+CPU: P1(6)
+QUEUE: P5(3)
+
+T25:
+CPU: P1(5)
+QUEUE: P5(3)
+
+T26:
+CPU: P1(4)
+QUEUE: P5(3)
+
+T27:
+CPU: P5(3)
+QUEUE: P1(3)
+
+T28:
+CPU: P5(2)
+QUEUE: P1(3)
+
+T29:
+CPU: P5(1)
+QUEUE: P1(3)
+
+T30:
+CPU: P1(3)
+QUEUE: <empty>
+
+T31:
+CPU: P1(2)
+QUEUE: <empty>
+
+T32:
+CPU: P1(1)
+QUEUE: <empty>
+
+Process P1 Wait Time: 32.00
+Process P2 Wait Time: 13.00
+Process P3 Wait Time: 5.00
+Process P4 Wait Time: 7.00
+Process P5 Wait Time: 22.00
+Average Wait Time: 15.80
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab06/cpuScheduler/cmake-build-debug/bin$ ./cpuScheduler ../../input/in-RR.txt 3 > out-RR.txt
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab06/cpuScheduler/cmake-build-debug/bin$ ls
+cpuScheduler  out-FCFS.txt  out-RR.txt	out-SJF.txt  out-SRTF.txt  typescript.txt
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab06/cpuScheduler/cmake-build-debug/bin$ exit
+exit
+
+Script done on 2021-03-10 13:47:06-08:00 [COMMAND_EXIT_CODE="0"]
